@@ -1,0 +1,35 @@
+.work-list.dongengin-works .work-image {
+    background-image: linear-gradient(166.57deg, #FEFCFF 7.76%, #E07BFF 126.39%);
+}
+
+.work-list.dongengin-works .btn-work,
+.work-list.dongengin-works .btn-work:not(:disabled):not(.disabled).active,
+.work-list.dongengin-works .btn-work:not(:disabled):not(.disabled):active {
+    background-image: linear-gradient(135deg, #72e9f3 -20%, #404de6 120%);
+    box-shadow: 0 11px 36px 0 rgba(70, 89, 138, 0.25);
+}
+
+.work-image.dongengin {
+    min-height: 177px;
+}
+
+@media (min-width: 576px) {
+    .work-image.dongengin {
+        min-height: 353px;
+    }
+    .work-description.dongengin {
+        padding: 94px 36px 56px;
+    }
+}
+
+@media (min-width: 992px) {
+    .work-description.dongengin {
+        padding: 108px 60px 56px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .work-description.dongengin {
+        padding: 108px 80px 56px;
+    }
+}
